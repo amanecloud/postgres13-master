@@ -11,7 +11,7 @@ build:
     image_template: postgres_master-13.3
     
 deploy:
-    context: aman-DEV
+    context: amanecloud/DEV
     type: statefulset
     ingress: none
     replicas: 1
